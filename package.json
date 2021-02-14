@@ -2,6 +2,7 @@
   "name": "lccs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lmbrs.github.io/lccs/",
   "dependencies": {
     "axios": "^0.21.1",
     "react": "^17.0.1",
