@@ -1,0 +1,52 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #007757;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #04b384;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+th {
+  background-color: #ccc;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+tbody tr:nth-child(even) {
+  background: #ecf0f1;
+}
+
+@media (min-width: 700px) {
+  .left-half {
+    width: 49%;
+    float: left;
+  }
+  .right-half {
+    width: 49%;
+    float: right;
+  }
+}
