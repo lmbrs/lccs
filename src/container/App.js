@@ -56,7 +56,7 @@ class App extends React.Component {
         data[username].bronze++;
       }
       if (arenaTournamentIds.length % 5 === 0) {
-        await sleep(1000);
+        await sleep(2000);
       }
     }
 
@@ -83,7 +83,7 @@ class App extends React.Component {
         data[username].bronze++;
       }
       if (swissTournamentIds.length % 5 === 0) {
-        await sleep(1000);
+        await sleep(2000);
       }
     }
 
